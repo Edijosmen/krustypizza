@@ -1,4 +1,8 @@
 <template>
+      <div id="nav">
+        <router-link to="/inicio">Inicio</router-link> |
+        <router-link to="/login">Ingresar</router-link>
+    </div>
   <div class="about">
     <section class="login">
       <section class="container-fluid bg">
@@ -43,9 +47,8 @@
                   >
                 </div>
               </div>
-              <button type="submit" class="btn btn-primary btn-block">
-                Ingresar
-              </button>
+              <a href="/" class="btn btn-primary btn-block">Ingresar</a>
+             
               <div class="form text-center">
                 <label class="text-center" for="google">O con </label>
               </div>
@@ -82,6 +85,9 @@
   background: #dd4b39;
   color: white;
 }
+#nav{
+        background:#F7C700;
+    }
 
 /* adminstrador */
 
