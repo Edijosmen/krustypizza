@@ -21,7 +21,7 @@
                 </div>
             </nav>
             </div>
-
+        
         <div class=" container-fluid cabeza">
             <section class = "row justify-content-center">
                 <div class = " col-sm-12 col-md-6">
@@ -56,7 +56,7 @@
                 </div>
             </section>
         </div>
-        <section class="container">
+        <section class="container content">
             <div class="row">
                 <div class="col-sm-12 col-md-4">
                     <div>
@@ -101,11 +101,7 @@
    <div class="">
          <Foother/>
    </div>
-  
 
-
- 
- 
 </template>
 
 <script>

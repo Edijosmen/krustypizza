@@ -28,7 +28,10 @@
                                     <li><a href="#" class="text-reset">como puedo pedir mi order</a></li>
                                 </ul>  
                      
-                </div>              
+                </div>     
+                <div class="footer-cont">
+                    © 2020 Krosty-Pizzaa
+                </div>         
 
             </div>
         </footer>  
@@ -48,5 +51,10 @@ export default {
 footer{
     background:#d5ac00;
     padding-top:30px;
+}
+.footer-cont{
+    border-top: 1px solid #e5edef;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 </style>
