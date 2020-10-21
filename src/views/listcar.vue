@@ -2,10 +2,13 @@
     <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="" class="navbar-brand">Krostypizza</a>
+                <a href="" class="navbar-brand a-menu font-weight-bold">Krostypizza</a>
             </div>
             <ul class="nav navbar-nav navbar-right"> 
-                <li><a href="">Ingresar <i class="fas fa-user"></i></a></li>
+                <li>
+                    <a  class=" a-menu font-weight-bold" href="">Usuario <i class="fas fa-user"></i> | </a>
+                    <a href=""><i class="fas fa-shopping-cart carico"></i></a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -15,7 +18,7 @@
                 <div class="col-md-6 product">
                     <div class="row bord">
                         <div class ="col-sm-6  col-md-5 prod">
-                              <label for="">Productos</label>
+                              <label class ="font-weight-bold" for="">Productos</label>
                               <div >
                                     <div class="card-center" style="width: 12rem;">
                                         <img src="../assets/img/postrecillo.jpg" class="card-img-top">
@@ -26,15 +29,15 @@
                                </div>
                         </div>
                         <div class ="col-sm-6 col-md-2 ">
-                             <label class="col" for="">Precio </label>
+                             <label class="col font-weight-bold" for="">Precio </label>
                              <label  class="col" for="">$30.000</label>
                         </div>
                         <div class ="col-sm-6 col-md-2"> 
-                             <label class="col" for="">Cantidad</label>
+                             <label class="col font-weight-bold" for="">Cantidad</label>
                              <label class="col" for="">4</label>
                         </div>
                         <div class ="col-sm-6 col-md-2 "> 
-                             <label class="col" for="">supTotal</label>
+                             <label class="col font-weight-bold" for="">supTotal</label>
                               <label class="col" for="">$120.000</label>
                         </div>
                     </div>
@@ -51,16 +54,16 @@
                                </div>
                         </div>
                         <div class ="col-sm-6 col-md-2 ">
-                             <label class="col" for="">Precio </label>
+                             <label class="col font-weight-bold" for="">Precio </label>
                              <label  class="col" for="">$30.000</label>
                         </div>
                         <div class ="col-sm-6 col-md-2"> 
-                             <label class="col" for="">Cantidad</label>
+                             <label class="col font-weight-bold" for="">Cantidad</label>
                              <label class="col" for="">4</label>
                         </div>
                         <div class ="col-sm-6 col-md-2 "> 
-                             <label class="col" for="">supTotal</label>
-                              <label class="col" for="">$120.000</label>
+                             <label class="col font-weight-bold" for="">supTotal</label>
+                              <label class="col " for="">$120.000</label>
                         </div>
                     </div>
                   
@@ -76,7 +79,7 @@
                                         <label for="">Total del Compra</label>
                                         </div>
                                         <div class="col-sm-6 col-md-12">
-                                        <label for="">$ 140.000</label>
+                                        <label class="font-weight-bold" for="">$ 140.000</label>
                                         </div>
                                         <div>
                                             <button class="btn" type="submit">Finalizar compra</button>
@@ -124,6 +127,9 @@ export default {
 nav{
      background:#F7C700;
 }
+.a-menu{
+     color:#25251A;
+}
 .bord{
     padding-top:10px;
     border-top: 2px solid #e5edef;
@@ -133,13 +139,16 @@ nav{
     
 }
 .shop{
-    color:#F52F41
+    color:#25251A
+}
+.carico{
+    color:#25251A;
 }
 .buy{
    
 }
 .product{
-    background:#FBD8DA;
+    background:#EABF70;
 }
 .btn{
     background:#F52F41;
