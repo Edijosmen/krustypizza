@@ -27,7 +27,11 @@ const routes = [
     name: 'pizza',
     component: () => import(/* webpackChunkName: "Inicio" */ '../views/Pizza.vue')
   },
-  
+  {
+    path: '/Detalle-facturacion',
+    name: 'facturacion',
+    component: () => import(/* webpackChunkName: "Inicio" */ '../views/Detalles_Facturacion.vue')
+  },
 ]
 
 const router = createRouter({
