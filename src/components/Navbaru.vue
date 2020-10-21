@@ -2,7 +2,7 @@
   <nav class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a href="" class="navbar-brand a-menu font-weight-bold">Krostypizza</a>
+                <a href="/inicio" class="navbar-brand a-menu font-weight-bold">Krostypizza</a>
             </div>
             <ul class="nav navbar-nav navbar-right"> 
                 <li>

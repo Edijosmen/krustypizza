@@ -14,7 +14,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                 <div class="navbar-nav mx-auto text-center">
-                <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Pizzas</a>
+                <a class="nav-link active" href="pizza" tabindex="-1" aria-disabled="true">Pizzas</a>
                 <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Bebidas</a>
                 <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Postres</a>
                 </div>
