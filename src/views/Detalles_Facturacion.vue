@@ -15,7 +15,7 @@
             <div class="col-md-6">
                 Tercera Columna 
                 <div class="container facturacion">
-                                <!--FORMULARIO PVTO-->    
+                                <!--FORMULARIO KPVTO-->    
                                 <form class="text-left">
                                     <p>DETALLES DE FACTURACIÓN</p>
                                     <div class="form-row">
