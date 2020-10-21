@@ -22,6 +22,11 @@ const routes = [
     name: 'lista',
     component: () => import(/* webpackChunkName: "Inicio" */ '../views/listcar.vue')
   },
+  {
+    path: '/pizza',
+    name: 'pizza',
+    component: () => import(/* webpackChunkName: "Inicio" */ '../views/Pizza.vue')
+  },
 ]
 
 const router = createRouter({

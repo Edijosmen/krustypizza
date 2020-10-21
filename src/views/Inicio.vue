@@ -20,7 +20,7 @@
                 </div>
                 </div>
             </nav>
-            </div>
+        </div>
         
         <div class=" container-fluid cabeza">
             <section class = "row justify-content-center">
