@@ -27,6 +27,7 @@ const routes = [
     name: 'pizza',
     component: () => import(/* webpackChunkName: "Inicio" */ '../views/Pizza.vue')
   },
+  
 ]
 
 const router = createRouter({
