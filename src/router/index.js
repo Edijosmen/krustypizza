@@ -28,7 +28,7 @@ const routes = [
     component: () => import(/* webpackChunkName: "Inicio" */ '../views/Pizza.vue')
   },
   {
-    path: '/Detalle-facturacion',
+    path: '/Detalles-facturacion',
     name: 'facturacion',
     component: () => import(/* webpackChunkName: "Inicio" */ '../views/Detalles_Facturacion.vue')
   },

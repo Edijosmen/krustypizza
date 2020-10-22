@@ -1,51 +1,78 @@
 <template>
     <div class="container">
+        <!--LOGO-->
         <div class="row">
-                <div class="col">
-                Primera Columna
+                <div class="col-4">
+                    <div class="container ">
+                        <div class="logo ">
+                            <img class="img-fluid img-thumbnail" src="../assets/img/krostyanuncio.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="container ">
+                        <div class="text-left mt-5 titulogo">
+                                <h1 class="align-center">Pizzería Krusty</h1>  
+                        </div>
+                    </div>
                 </div>
         </div>
+        <!--NAVBAR-->
         <div class="row">
              <div class="col">
-                 Segunda Columna
+               
+                   <div class="container">       
+                        <nav class="border border-dark navbar navbar-light navbar-expand-sm" style="background-color: #f4f9fc;">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                            <div class="navbar-nav mx-auto text-center">
+                            <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Pizzas</a>
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Bebidas</a>
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Postres</a>
+                            </div>
+                            </div>
+                        </nav>
+                    </div>   
             </div>
         </div>   
         <!--COLUMNA FORMULARIO DE FACTURACIÓN-->
-        <div class="row">
-            <div class="col-md-6">
-                Tercera Columna 
+        <div class="row detalles">
+            <div class="col-xl-6">
                 <div class="container facturacion">
                                 <!--FORMULARIO KPVTO-->    
                                 <form class="text-left">
                                     <p>DETALLES DE FACTURACIÓN</p>
                                     <div class="form-row">
-                                        <div class="form-group col-sm-6">
+                                        <div class="form-group col-xl-6">
                                             <label for="inputEmail4">Nombres</label>
                                             <input type="nombres" class="form-control" id="inputNombres4" placeholder="Nombres">
                                         </div>
-                                        <div class="form-group col-sm-6">
+                                        <div class="form-group col">
                                             <label for="inputPassword4">Apellidos</label>
                                             <input type="apellidos" class="form-control" id="inputApellidos4" placeholder="Apellidos">
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="form-group col-sm-6">
+                                        <div class="form-group col-xl-6">
                                         <label for="inputEmail4">Email</label>
                                         <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
                                         </div>
-                                        <div class="form-group col-md-6">
+                                        <div class="form-group col-xl-6">
                                         <label for="inputPassword4">Teléfono</label>
                                         <input type="telefono" class="form-control" id="inputTelefono4" placeholder="Teléfono">
                                         </div>
                                     </div>
                                     <div class="form-row">
-                                        <div class="form-group col-md-12">
+                                        <div class="form-group col-xl-12">
                                             <label for="inputAddress2">Dirección</label>
                                             <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <div class="form-group col-md-12">
+                                        <div class="form-group col-xl-12">
                                         <label for="inputCity">Ciudad</label>
                                         <select id="inputCity" class="form-control">
                                             <option selected>Seleccionar...</option>
@@ -68,8 +95,7 @@
 
             </div>
             <!--COLUMNA DETALLE DE PEDIDO-->
-           <div class="col-md-6">
-                Cuarta Columna 
+           <div class="col-xl-6"> 
                 <div class="container facturacion">
                    
                      <div class="card text-center">
@@ -126,22 +152,40 @@
         </div>
        
     </div>
+    <div>
+         <Foother/>
+   </div>
 </template>
 
 <script>
-export default {
-  name: "Foother",
-  props: {
-    msg: String,
-  },
-};
+    import Foother from '@/components/Foother.vue'
+    export default {
+    name: 'Footer',
+    components: {
+        Foother
+     }
+    }
 </script>
 
 <style scoped>
+    
+    .container{
+        background: #ddfff5;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
      .facturacion{
         margin-top: 150px;
     }
 
+  .logo{
+      width: 150px;
+  }
+  .titulogo{
+        color: darkgoldenrod;
+  }
     
    
 </style>
