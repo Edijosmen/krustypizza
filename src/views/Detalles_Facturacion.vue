@@ -111,7 +111,7 @@
                 
 
             </div>
-            <!--COLUMNA DETALLE DE PEDIDO-->
+            <!--COLUMNA DETALLE DE PEDIDOS-->
            <div class="col-xl-6"> 
                 <div class="container facturacion">
                    

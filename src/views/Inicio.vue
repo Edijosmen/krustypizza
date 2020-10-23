@@ -4,7 +4,7 @@
         <router-link to="/inicio">Inicio</router-link> |
         <router-link to="/login">Ingresar</router-link>
     </div>
-   <!--LOL-->
+   <!--LOLO-->
     <div >
         <div class="container">
             <nav class="border border-dark navbar navbar-light navbar-expand-sm" style="background-color: #f4f9fc;">

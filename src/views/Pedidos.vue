@@ -56,7 +56,7 @@
                     </div>   
             </div>
         </div>   
-        <!--COLUMNA PEDIDOS Y VENTAS-->
+        <!--COLUMNA PEDIDOS Y VENTAS XD-->
         <div class="container mt-5">
             <div class="border border-dark card text-center">
                             <div class="card-header">
