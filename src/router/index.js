@@ -32,6 +32,11 @@ const routes = [
     name: 'facturacion',
     component: () => import(/* webpackChunkName: "Inicio" */ '../views/Detalles_Facturacion.vue')
   },
+  {
+    path: '/Pedidos',
+    name: 'pedidos',
+    component: () => import(/* webpackChunkName: "Inicio" */ '../views/Pedidos.vue')
+  },
 ]
 
 const router = createRouter({

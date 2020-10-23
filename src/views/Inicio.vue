@@ -7,7 +7,7 @@
 
     <div >
         <div class="container">
-            <nav class="navbar navbar-light navbar-expand-sm" style="background-color: #f4f9fc;">
+            <nav class="border border-dark navbar navbar-light navbar-expand-sm" style="background-color: #f4f9fc;">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>

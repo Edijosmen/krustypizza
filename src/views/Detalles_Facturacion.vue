@@ -2,20 +2,37 @@
     <div class="container">
         <!--LOGO-->
         <div class="row">
-                <div class="col-4">
+                <div class="col-md-4">
                     <div class="container ">
                         <div class="logo ">
                             <img class="img-fluid img-thumbnail" src="../assets/img/krostyanuncio.jpg">
                         </div>
                     </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-4">
                     <div class="container ">
                         <div class="text-left mt-5 titulogo">
                                 <h1 class="align-center">Pizzería Krusty</h1>  
                         </div>
                     </div>
                 </div>
+                <!--Iconos-->
+                <div class="col-sm mt-5 icon">
+                    <div class="container user">
+                        
+                            <a  class=" a-menu font-weight-bold" href=""><i class="far fa-user"></i>  
+                                <p>Usuario</p>
+                            </a>
+                    </div>                  
+                </div>
+                <div class="col-sm mt-5 icondos">
+                    <div class="container car">
+                             <a  class=" a-menu font-weight-bold" href=""><i class="fas fa-cart-plus"></i>  
+                              <p>Carrito</p>  
+                            </a>
+                    </div>
+                </div>
+                 
         </div>
         <!--NAVBAR-->
         <div class="row">
@@ -186,6 +203,16 @@
   .titulogo{
         color: darkgoldenrod;
   }
+  .fa-user{
+      color: black;
+      font-size: 30px;
+  }
+  .fa-cart-plus{
+      color: black;
+       font-size: 30px;
+       
+  }
+
     
    
 </style>
