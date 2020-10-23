@@ -61,7 +61,7 @@
                 <div class="container facturacion">
                                 <!--FORMULARIO KPVTO-->    
                                 <form class="text-left">
-                                    <p>DETALLES DE FACTURACIÓN</p>
+                                    <p class="font-weight-bold">DETALLES DE FACTURACIÓN</p>
                                     <div class="form-row">
                                         <div class="form-group col-xl-6">
                                             <label for="inputEmail4">Nombres</label>
@@ -115,9 +115,9 @@
            <div class="col-xl-6"> 
                 <div class="container facturacion">
                    
-                     <div class="card text-center">
+                     <div class="border border-dark card text-center">
                             <div class="card-header">
-                                TU PEDIDO
+                                <p class="font-weight-bold">TU PEDIDO</p> 
                             </div>
                             <div class="card-body">
                                 <div class="row">

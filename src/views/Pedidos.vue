@@ -56,7 +56,7 @@
                     </div>   
             </div>
         </div>   
-        <!--COLUMNA FORMULARIO DE FACTURACIÓN-->
+        <!--COLUMNA PEDIDOS Y VENTAS-->
         <div class="container mt-5">
             <div class="border border-dark card text-center">
                             <div class="card-header">

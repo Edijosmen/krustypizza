@@ -6,7 +6,7 @@
             </div>
             <ul class="nav navbar-nav navbar-right"> 
                 <li>
-                    <a  class=" a-menu font-weight-bold" href="">Usuario <i class="fas fa-user"></i> | </a>
+                    <a  class=" a-menu font-weight-bold" href="">Usuario <i class="fas fa-user"></i> - </a>
                     <a href=""><i class="fas fa-shopping-cart carico"></i></a>
                 </li>
             </ul>
