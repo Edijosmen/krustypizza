@@ -114,7 +114,7 @@ export default {
   mounted(){
     axios.get("http://127.0.0.1:8000/ventas/productos/")
     .then(response=>{
-        console.log(response.data)
+        //console.log(response.data)
         this.imagenes = response.data.results
     })    
     }
